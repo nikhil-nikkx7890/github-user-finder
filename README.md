@@ -14,7 +14,7 @@ A React application that allows users to search for GitHub profiles and view pub
 
 ### User Profile
 
-![User Profile](./screenshots/octocat-profile.png)
+![User Profile](./screenshots/profile-page.png)
 
 ## Features
 
