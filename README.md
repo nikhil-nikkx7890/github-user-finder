@@ -6,6 +6,16 @@ A React application that allows users to search for GitHub profiles and view pub
 
 🔗 https://github-user-finder-lake.vercel.app/
 
+## Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home-page.png)
+
+### User Profile
+
+![User Profile](./screenshots/octocat-profile.png)
+
 ## Features
 
 - Search GitHub users by username
@@ -49,10 +59,6 @@ Run the development server:
 ```bash
 npm run dev
 ```
-
-## Screenshots
-
-
 
 ## Future Improvements
 
