@@ -1,16 +1,75 @@
-# React + Vite
+# GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that allows users to search for GitHub profiles and view public account information using the GitHub REST API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search GitHub users by username
+* View profile picture and account details
+* Display followers and following counts
+* View public repositories count
+* Loading state while fetching data
+* Error handling for invalid usernames and API issues
+* Responsive user interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Vite
+* CSS
+* GitHub REST API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/nikhil-nikkx7890/github-user-finder.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd github-user-finder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Screenshots
+
+
+
+## Future Improvements
+
+* Display user repositories
+* Add dark mode
+* Search history
+* Debounced search
+* Repository filtering and sorting
+
+## What I Learned
+
+This project helped me practice:
+
+* React state management
+* API integration using Fetch API
+* Conditional rendering
+* Loading and error states
+* Component-based architecture
+
+## Author
+
+Nikhil
+
+Currently learning the MERN Stack and building projects in public while transitioning into tech.
